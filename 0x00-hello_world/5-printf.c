@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * Main-print a line of code using printf
+ *Main-print a line of code using printf
  * 
- * Return:0
+ *Return:0
  */
 int main(void)
 {
