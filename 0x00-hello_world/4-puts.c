@@ -1,7 +1,8 @@
 #include <stdio.h>
-/* main print Programming
+/*
+ *  main- print Programming
  *
- * return 0
+ * return: 0
  *
  */
 
