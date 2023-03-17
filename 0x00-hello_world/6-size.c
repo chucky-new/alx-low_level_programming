@@ -10,7 +10,7 @@ int main(void)
 	int b;
 	long int c;
 	long long int d;
-	float float e;
+	float e;
 	
 	printf("Size of a char: %1u bytes(S)\n", (unsigned long)sizeof (a));
 	printf("Size of a char: %1u bytes(S)\n", (unsigned long)sizeof (b));
