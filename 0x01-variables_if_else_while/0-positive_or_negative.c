@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main - print line of int 
+ * main - determine if number is a postive or negative or equal to zero
  *
- * Return: 0
+ * Return: 0 Always a success
  */
-int main()
+int main(void)
 {
 	int n;
 	srand(time(0));
