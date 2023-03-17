@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - print ascending numbers with ,
+ * main - print ascending numbers with comma
  * 
  * Return: 0
  */
