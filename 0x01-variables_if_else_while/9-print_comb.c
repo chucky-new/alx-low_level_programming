@@ -1,24 +1,24 @@
 #include <stdio.h>
 /**
- * main - print ascending numbers with comma
- * 
+ * main - print numbers
+ *
  * Return: 0
  */
 int main(void)
 {
-	int num;
+        int num;
 
-	for (num = 0; num <= 9; num++)
-	{
-		putchar((num % 10) + '0');
-		if (num == 9)
-			continue;
+        for (num = 0; num <= 9; num++)
+        {
+                putchar((num % 10) + '0');
+                if (num == 9)
+                        continue;
 
-		putchar(',');
-		putchar(' ');
-	}
+                putchar(',');
+                putchar(' ');
+        }
 
-	putchar('\n');
+        putchar('\n');
 
-	return (0);
+        return (0);
 }
