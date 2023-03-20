@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * void print_alphabet(void) - print alphabet 10x
+ * void print_alphabet_x10(void) - print alphabet 10x
  * Return: 0 Always success
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	int num = 0;
 	char letter;
