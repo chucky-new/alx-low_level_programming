@@ -3,7 +3,7 @@
  * main - print alphabet 10x
  * Return: 0 Always success
  */
-void void print_alphabet(void)
+void print_alphabet(void)
 {
 	int num = 0;
 	char letter;
