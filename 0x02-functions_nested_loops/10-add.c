@@ -3,7 +3,7 @@
  * add(int, int)- addtwo integers together
  * @numa: integer a
  * @numb: integer b
- * Result: Return with the added integers
+ * Result: numa + numb
  */
 int add(int numa, int numb)
 {
