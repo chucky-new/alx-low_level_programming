@@ -7,6 +7,8 @@
  */
 int add(int, int)
 {
-	int add(int numA, int numB);
-	return (numA + numB);
+	int add(int numA, int numB)
+	{
+		return (numA + numB);
+	}
 }
