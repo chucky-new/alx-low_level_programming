@@ -1,6 +1,6 @@
-#include "main"
+#include "main.h"
 /**
- * print_line
+ * print_line - print straight line
  * @n: number of the line in terminal and should be printed 
  * Return: Straight LINE
  */
