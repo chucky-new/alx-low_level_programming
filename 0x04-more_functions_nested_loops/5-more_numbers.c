@@ -1,4 +1,4 @@
-#iclude "main.h"
+#include "main.h"
 /**
  * more_numbers - print numbers 10 times
  *
@@ -6,15 +6,17 @@
  */
 void more_numbers(void)
 {
-	int n, rows;
+	int i, rows;
 
-	for (rows >= 0; rows <= 10; rows++)
+	for (rows = 0; rows < 10; rows++)
 	{
-		for (n >= 0; n <= 14; n++)
+		for (i = 0; i <= 14; i++)
 		{
-			if (n >= 10)
-				_putchar(rows / 10 + '0');
-			_putchar(rows % 10 + '0');
+			if (i >= 10)
+			{
+				_putchar((i / 10) + '0');
+			}
+			_putchar((i % 10) + '0');
 		}
 		_putchar('\n');
 	}
