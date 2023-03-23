@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _isupper(int c)
+ * _isupper - is c upper or lowercase
  * @c: is c upper
  * Return: 1 if c is upper or return 0 if not
  */
